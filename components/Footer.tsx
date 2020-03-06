@@ -1,8 +1,10 @@
-import { Fragment } from 'react'
-export default function Footer() {
+interface Props { }
+
+const Footer: React.FC<Props> = props => {
     return (
-        <Fragment>
-            <footer>Wes Braga Developer 2020</footer>
-        </Fragment>
+        <footer>
+            Wes Braga Developer 2020
+        </footer>
     )
-}
+};
+export default Footer

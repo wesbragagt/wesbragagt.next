@@ -1,8 +1,9 @@
-import { Fragment } from 'react'
-export default function Body(props) {
-    <Fragment>
+interface Props { }
+const Main: React.FC<Props> = (props) => {
+    return (
         <main>
             {props.children}
         </main>
-    </Fragment>
-}
+    )
+};
+export default Main
